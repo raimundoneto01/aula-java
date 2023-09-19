@@ -1,0 +1,22 @@
+.hilden {
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.parag{
+    width: 14rem;
+    height: 2rem;
+    border: 1px solid;
+    color: red;
+    padding: 1rem ;
+}
+.h1{
+    color: blue;
+    width: 14rem;
+    height: 2rem;
+    border: 1px solid;
+    padding: 1rem ;
+}
