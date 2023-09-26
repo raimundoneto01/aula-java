@@ -7,11 +7,29 @@
     <link rel="stylesheet" href="doc.css">
 </head>
 <body>
-    <div class="container" id="container1">teste</div>
+    <!-- <div class="container" id="container1">teste</div>
     <div class="container" id="container2">teste</div>
 
     <button onclick="changeBgColor()">Azul</button>
-    <button onclick="changeBgColorBlac()">preto</button>
+    <button onclick="changeBgColorBlac()">preto</button> -->
+
+    <button id="openModal" >Abrir Modal</button>
+
+    <div class="bg-modal hidden" id="modal">
+        <div class="modal " >
+
+            <span class="close" id="close" >X</span>
+            <p class="modal-Body">Corpo do Modal</p>
+
+        </div>
+    </div>
+
+
+        <input type="text" id="valor1"> *
+        <input type="text" id="valor2">
+        <button  id="tecValor">somar</button>
+        <p id="somatoria"></p>
+        
 
     <script src="doc.js"></script>
 </body>

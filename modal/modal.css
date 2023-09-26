@@ -1,0 +1,12 @@
+.divModal{
+    height: 350px;
+    width: 400px;
+    border: 1px solid black;
+    position: absolute;
+}
+.btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
